@@ -1,8 +1,39 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
+  colour: #000;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+p {
+margin-top: 0;
+padding: 0;
+}
+
+a {
+  background-color: #555;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+}
+
+.img-flex {
+  width: 100%;
 }
