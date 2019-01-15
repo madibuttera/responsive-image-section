@@ -82,14 +82,11 @@ a:hover {
     line-height: 1.4;
   }
 
-  section {
-    width: 100%;
-  }
-
   .photo {
     max-width: 25em;
     display: inline-block;
-    width: 49%;
+    width: 50%;
+    vertical-align: middle;
   }
 
   .img-flex {
@@ -100,7 +97,8 @@ a:hover {
   .content {
     display: inline-block;
     max-width: 25em;
-    width: 50%;
+    width: 48%;
+    vertical-align: middle;
   }
 
 }
@@ -112,12 +110,12 @@ a:hover {
     line-height: 1.5;
   }
 
-  .content {
-    padding-top: 2rem;
+  h1 {
+    margin-bottom: 1.5rem;
   }
 
-  section {
-    vertical-align: middle;
+  p {
+    margin-bottom: 1.5rem;
   }
 
 }
