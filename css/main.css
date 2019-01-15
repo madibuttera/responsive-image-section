@@ -24,9 +24,8 @@ body {
   width: 100%;
 }
 
-section .content {
-  display: inline-block;
-  width: 48%;
+.btn {
+  padding-bottom: 1rem;
 }
 
 h1 {
@@ -45,13 +44,13 @@ a {
   padding: 0.5em 0.75em;
 }
 
-a:hover {
-  background-color: #000;
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
-.img-flex {
-  width: 48%;
-  display: inline-block;
+a:hover {
+  background-color: #000;
 }
 
 .content {
@@ -77,6 +76,28 @@ a:hover {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  section {
+    max-width: 25em;
+    width: 50%;
+  }
+
+  .photo {
+    max-width: 25em;
+    display: inline-block;
+    width: 48%;
+  }
+
+  .img-flex {
+    width: 100%;
+    display: block;
+  }
+
+  .content {
+    display: inline-block;
+    max-width: 25em;
+    width: 48%;
   }
 
 }
