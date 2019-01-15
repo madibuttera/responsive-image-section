@@ -88,7 +88,7 @@ a:hover {
   .photo {
     max-width: 25em;
     display: inline-block;
-    width: 48%;
+    width: 50%;
   }
 
   .img-flex {
