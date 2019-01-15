@@ -82,8 +82,7 @@ a:hover {
   }
 
   section {
-    max-width: 25em;
-    width: 50%;
+    width: 100%;
   }
 
   .photo {
@@ -110,6 +109,14 @@ a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .content {
+    padding-top: 2rem;
+  }
+
+  section {
+    vertical-align: middle;
   }
 
 }
