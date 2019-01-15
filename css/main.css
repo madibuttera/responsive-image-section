@@ -13,6 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  padding-left: 1rem;
 }
 
 *, *::before, *::after {
@@ -88,7 +89,7 @@ a:hover {
   .photo {
     max-width: 25em;
     display: inline-block;
-    width: 50%;
+    width: 49%;
   }
 
   .img-flex {
@@ -99,7 +100,7 @@ a:hover {
   .content {
     display: inline-block;
     max-width: 25em;
-    width: 48%;
+    width: 50%;
   }
 
 }
